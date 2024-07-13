@@ -11,7 +11,7 @@
   <style>
     body {
       height: 100%;
-      font-family: Martel+Sans;
+      font-family: 'Martel Sans', sans-serif;
       color: white;
       background-color: rgb(35, 35, 35);
       display: flex;
@@ -22,37 +22,36 @@
   </style>
 </head>
 <body>
-  <div class="md:h-4/5 w-full h-3/4 pb-20 md:pb-40 bg-[url('links/images/backgroundnetflix.jpg')] bg-cover flex flex-col items-center ">
-    <div class="w-full h-20 flex flex-row items-center justify-between">
-      <img class="md:w-28 md:h-10 w-89px h-6 md:ml-20 ml-10" src="links/images/logo.svg" alt="">
-      <button class="h-7 w-16 rounded-md font-semibold text-xs text-white md:mr-20 mr-10 text-center hover:bg-hoverColor ease-in-out duration-200 bg-backgroundColor">Sign In</button>
+  <div class="md:h-4/5 w-full h-3/4 pb-20 md:pb-40 bg-[url('links/images/backgroundnetflix.jpg')] bg-cover flex flex-col items-center justify-center">
+    <div class="w-full h-20 flex items-center justify-between px-4 sm:px-10 md:px-20">
+      <img class="md:w-28 md:h-10 w-20 h-6" src="links/images/logo.svg" alt="Logo">
+      <button class="h-7 w-16 rounded-md font-semibold text-xs text-white text-center hover:bg-hoverColor ease-in-out duration-200 bg-backgroundColor">Sign In</button>
     </div>
 
-    <div class="flex flex-col items-center justify-center">
-      <p class="font-extrabold md:text-5xl text-3xl sm:text-2xl mt-24 text-white text-center px-10">Unlimited movies, TV shows and more</p>
-      <p class="md:text-xl mt-4 text-white text-center px-10">Watch anywhere. Cancel anytime.</p>
-      <p class="md:text-xl mt-4 text-white text-center px-10">Ready to watch? Enter your email to create or restart your membership.</p>
+    <div class="flex flex-col items-center justify-center text-center px-4 sm:px-10">
+      <p class="font-extrabold md:text-5xl text-3xl mt-12 sm:mt-24">Unlimited movies, TV shows and more</p>
+      <p class="md:text-xl mt-4">Watch anywhere. Cancel anytime.</p>
+      <p class="md:text-xl mt-4">Ready to watch? Enter your email to create or restart your membership.</p>
       <div class="flex md:flex-row flex-col items-center mt-3">
-        <input type="text" placeholder="Email Adress" class="w-80 h-10 rounded-md pl-3 bg-black outline-none bg-opacity-40 border border-gray-500 text-white" style="font-size: 14px;">
-
-        <button class="h-10 font-semibold w-28 md:mt-0 mt-5 hover:bg-hoverColor rounded-md ml-5 text-white ease-in-out duration-200 bg-backgroundColor">Get Started</button>
+        <input type="text" placeholder="Email Address" class="w-full sm:w-80 h-10 rounded-md pl-3 bg-black outline-none bg-opacity-40 border border-gray-500 text-white" style="font-size: 14px;">
+        <button class="h-10 font-semibold w-full sm:w-28 md:mt-0 mt-5 hover:bg-hoverColor rounded-md sm:ml-5 ml-0 text-white ease-in-out duration-200 bg-backgroundColor">Get Started</button>
       </div>
     </div>
   </div>
 
-  
-  <div class="bg-black w-full md:h-96 mt-2 flex md:flex-row flex-col items-center justify-center md:justify-between">
-    <div class="md:ml-28 flex flex-col items-center justify-center">
-      <p class="text-4xl font-bold text-center">Enjoy on your TV</p>
-      <p class="text-xl mt-5 md:w-2/3 w-5/6 text-center">Watch on smart TVs, PlayStation, Xbox, Chromecast, Apple TV, Blu-ray players and more.</p>
+  <div class="bg-black w-full md:h-96 h-100 mt-2 flex md:flex-row flex-col items-center md:justify-center">
+    <div class="flex flex-col items-center justify-center mt-10">
+      <p class="text-4xl px-3 font-bold text-center">Enjoy on your TV</p>
+      <p class="text-xl px-3 md:w-2/3 text-center">Watch on smart TVs, PlayStation, Xbox, Chromecast, Apple TV, Blu-ray players and more.</p>
     </div>
-    <div class="md:mr-28 mt-10 flex items-center justify-center ml-24">
-      <div class="h-80 w-96 relative mt-5 pr-20">
+    <div class="flex items-center justify-center md:ml-0 ml-20 md:mt-0 mt-16">
+      <div class="relative pr-14 md:mt-0">
         <video src="links/videos/video2.mp4" muted loop autoplay></video>
-        <img class="h-72 w-96 absolute -top-12 -left-12" src="links/images/tv.png" alt="">
+        <img class="absolute md:-top-16 md:-left-14 -top-10 -left-8" src="links/images/tv.png" alt="">
       </div>
     </div>
   </div>
+
 
 </body>
 </html>

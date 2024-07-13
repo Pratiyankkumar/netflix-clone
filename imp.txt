@@ -1,0 +1,12 @@
+  <div class="bg-black w-full md:h-96 mt-2 flex md:flex-row flex-col items-center justify-center md:justify-between">
+    <div class="md:ml-28 flex flex-col items-center justify-center text-center px-4 sm:px-0 mt-5">
+      <p class="text-4xl font-bold">Enjoy on your TV</p>
+      <p class="text-xl mt-5 md:w-2/3 w-full">Watch on smart TVs, PlayStation, Xbox, Chromecast, Apple TV, Blu-ray players and more.</p>
+    </div>
+    <div class="md:mr-28 mt-10 flex items-center justify-center">
+      <div class="h-80 w-96 relative mt-5 pr-16">
+        <video src="links/videos/video2.mp4" muted loop autoplay></video>
+        <img class="h-72 w-96 absolute -top-12 -left-12" src="links/images/tv.png" alt="">
+      </div>
+    </div>
+  </div>

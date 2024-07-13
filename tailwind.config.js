@@ -10,6 +10,9 @@ module.exports = {
         hoverColor: '#B20710',
         backgroundColor: '#E50914',
       },
+      height: {
+        '100': '600px',
+      }
     },
   },
   plugins: [],
