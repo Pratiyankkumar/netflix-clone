@@ -615,7 +615,7 @@ video {
 }
 
 .h-100 {
-  height: 500px;
+  height: 600px;
 }
 
 .h-20 {
@@ -713,10 +713,6 @@ video {
 
 .pl-3 {
   padding-left: 0.75rem;
-}
-
-.pr-14 {
-  padding-right: 3.5rem;
 }
 
 .pr-16 {
@@ -828,10 +824,6 @@ video {
 
   .md\:h-4\/5 {
     height: 80%;
-  }
-
-  .md\:h-96 {
-    height: 24rem;
   }
 
   .md\:h-98 {
