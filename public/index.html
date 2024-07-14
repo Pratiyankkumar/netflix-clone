@@ -19,6 +19,9 @@
       margin: 0;
       align-items: center;
     }
+    .show{
+      display: none;
+    }
   </style>
 </head>
 <body>
@@ -41,7 +44,7 @@
 
   <div class="bg-black w-full md:h-98 h-100 mt-2 flex md:flex-row flex-col items-center md:justify-center">
     <div class="flex flex-col items-center justify-center mt-10">
-      <p class="text-4xl px-3 font-bold text-center">Enjoy on your TV</p>
+      <p class="md:text-5xl text-3xl px-3 font-bold text-center">Enjoy on your TV</p>
       <p class="text-xl px-3 md:w-2/3 text-center mt-4">Watch on smart TVs, PlayStation, Xbox, Chromecast, Apple TV, Blu-ray players and more.</p>
     </div>
     <div class="flex items-center justify-center md:ml-0 ml-20 md:mt-0 mt-16">
@@ -54,7 +57,7 @@
 
   <div class="bg-black w-full md:h-98 h-102 mt-2 flex md:flex-row-reverse flex-col items-center md:justify-center">
     <div class="flex flex-col items-center justify-center mt-10">
-      <p class="text-4xl px-3 font-bold text-center w-4/5">Download your shows to watch offline</p>
+      <p class="md:text-5xl text-3xl px-3 font-bold text-center w-4/5">Download your shows to watch offline</p>
       <p class="text-xl px-3 md:w-2/3 text-center mt-4">Save your favourites easily and always have something to watch.</p>
     </div>
     <div class="flex items-center justify-center">
@@ -66,7 +69,7 @@
 
   <div class="bg-black w-full md:h-98 mt-2 flex md:flex-row flex-col items-center justify-center overflow-hidden">
     <div class="flex flex-col items-center justify-center mt-10">
-      <p class="text-4xl px-3 font-bold text-center">Watch everywhere</p>
+      <p class="md:text-5xl text-3xl px-3 font-bold text-center">Watch everywhere</p>
       <p class="text-xl px-3 md:w-2/3 text-center mt-4">Stream unlimited movies and TV shows on your phone, tablet, laptop, and TV.</p>
     </div>
     <div class="flex items-center justify-center md:w-102 md:h-103 w-106 h-98 md:ml-0 md:mt-0 ml-12 -mt-24">
@@ -79,15 +82,120 @@
 
   <div class="bg-black w-full md:h-98 h-102 mt-2 flex md:flex-row-reverse flex-col items-center md:justify-center">
     <div class="flex flex-col items-center justify-center mt-10">
-      <p class="text-4xl px-3 font-bold text-center w-4/5">Create profiles for kids</p>
+      <p class="md:text-5xl text-3xl px-3 font-bold text-center w-4/5">Create profiles for kids</p>
       <p class="text-xl px-3 md:w-2/3 text-center mt-4">Send children on adventures with their favourite characters in a space made just for them—free with your membership.</p>
     </div>
     <div class="flex items-center justify-center">
-      <div class="md:ml-32 md:mr-0">
+      <div class="md:ml-40 md:-mr-10">
         <img style="width: 400px; height: 300px; margin-top: 20px;" class="md:w-102" src="links/images/ab-boy.png" alt="">
       </div>
     </div>
   </div>
+
+  <div class="bg-black w-full mt-2 flex flex-col items-center md:justify-center pb-20">
+    <p class="md:text-5xl text-3xl px-3 font-bold text-center w-4/5 mt-10">Frequently Asked Questions</p>
+
+    <div>
+      <div id="question1" class="text-xl bg-lightBlack text-white flex flex-row items-center relative w-80 px-20 py-4 md:px-100 md:py-8 cursor-pointer mt-10 hover:bg-hoverColor2 ease-in-out duration-200">
+        <p class="text-xl md:text-2xl md:absolute md:left-2">What is netflix?</p>
+        <p class="text-3xl md:absolute md:right-2 md:block hidden">+</p>
+      </div>
+      <div id="answer1" class="show text-xl bg-lightBlack text-white md:w-110 w-111" style="margin-top: 1px;">
+        <p class="md:text-2xl text-xl ml-2 py-2">
+          Netflix is a streaming service that offers a wide variety of award-winning TV shows, movies, anime, documentaries and more – on thousands of internet-connected devices.
+        </p>
+      </div>
+    </div>
+
+    <div>
+      <div id="question2" class="text-xl bg-lightBlack text-white flex flex-row items-center md:relative md:px-100 px-6  md:py-8 py-4 cursor-pointer mt-2 hover:bg-hoverColor2 ease-in-out duration-200">
+        <p class="text-xl md:text-2xl md:absolute md:left-2">How much does netflix cost?</p>
+        <p class="text-3xl md:absolute md:right-2 md:block hidden">+</p>
+      </div>
+      <div id="answer2" class="show text-xl bg-lightBlack text-white md:w-110 w-111" style="margin-top: 1px;">
+        <p class="md:text-2xl text-xl ml-2 py-2">
+          Watch Netflix on your smartphone, tablet, Smart TV, laptop, or streaming device, all for one fixed monthly fee. Plans range from ₹149 to ₹649 a month. No extra costs, no contracts.
+        </p>
+      </div>
+    </div>
+
+    <div>
+      <div id="question3" class="text-xl bg-lightBlack text-white flex flex-row items-center md:relative md:px-100 md:py-8 py-4 px-18 cursor-pointer mt-2 hover:bg-hoverColor2 ease-in-out duration-200">
+        <p class="md:text-2xl text-xl md:absolute md:left-2">Where can i watch?</p>
+        <p class="text-3xl md:absolute md:right-2 md:block hidden">+</p>
+      </div>
+      <div id="answer3" class="show text-xl bg-lightBlack text-white md:w-110 w-111" style="margin-top: 1px;">
+        <p class="md:text-2xl text-xl ml-2 py-2">
+          Watch anywhere, anytime. Sign in with your Netflix account to watch instantly on the web at netflix.com from your personal computer or on any internet-connected device that offers the Netflix app, including smart TVs, smartphones, tablets, streaming media players and game consoles.
+        </p>
+        <p class="md:text-2xl text-xl ml-2 py-2">
+          You can also download your favourite shows with the iOS or Android app. Use downloads to watch while you're on the go and without an internet connection. Take Netflix with you anywhere.
+        </p>
+      </div>
+    </div>
+
+    <div>
+      <div id="question4" class="text-xl bg-lightBlack text-white flex flex-row items-center md:relative md:px-100 md:py-8 py-4 px-21 cursor-pointer mt-2 hover:bg-hoverColor2 ease-in-out duration-200">
+        <p class="md:text-2xl text-xl md:absolute md:left-2">How do i cancel?</p>
+        <p class="text-3xl md:absolute md:block hidden md:right-2">+</p>
+      </div>
+      <div id="answer4" class="show text-xl bg-lightBlack text-white md:w-110 w-111" style="margin-top: 1px;">
+        <p class="md:text-2xl text-xl ml-2 py-2">
+          Netflix is flexible. There are no annoying contracts and no commitments. You can easily cancel your account online in two clicks. There are no cancellation fees – start or stop your account anytime.
+        </p>
+      </div>
+    </div>
+
+    <div>
+      <div id="question5" class="text-xl bg-lightBlack text-white flex flex-row items-center md:relative md:px-100 md:py-8 px-6 py-4 cursor-pointer mt-2 hover:bg-hoverColor2 ease-in-out duration-200">
+        <p class="md:text-2xl text-xl md:absolute md:left-2">What can i watch on Netflix?</p>
+        <p class="text-3xl md:absolute md:right-2 md:block hidden">+</p>
+      </div>
+      <div id="answer5" class="show text-xl bg-lightBlack text-white md:w-110 w-111" style="margin-top: 1px;">
+        <p class="md:text-2xl text-xl ml-2 py-2">
+          Netflix has an extensive library of feature films, documentaries, TV shows, anime, award-winning Netflix originals, and more. Watch as much as you want, anytime you want.
+        </p>
+      </div>
+    </div>
+
+    <div>
+      <div id="question6" class="text-xl bg-lightBlack text-white flex flex-row items-center md:relative md:px-100 md:py-8 px-12 py-4 cursor-pointer mt-2 hover:bg-hoverColor2 ease-in-out duration-200">
+        <p class="md:text-2xl text-xl md:absolute md:left-2">Is Netflix good for kids?</p>
+        <p class="text-3xl md:absolute md:right-2 md:block hidden">+</p>
+      </div>
+      <div id="answer6" class="show text-xl bg-lightBlack text-white md:w-110 w-111" style="margin-top: 1px;">
+        <p class="text-xl md:text-2xl ml-2 py-2">
+          The Netflix Kids experience is included in your membership to give parents control while kids enjoy family-friendly TV shows and films in their own space.
+        </p>
+        <p class=" text-xl md:text-2xl ml-2 py-2">
+          Kids profiles come with PIN-protected parental controls that let you restrict the maturity rating of content kids can watch and block specific titles you don’t want kids to see.
+        </p>
+      </div>
+    </div>
+  </div>
   
+  <script>
+
+      function showAnswer(questionId, answerId) {
+        let num = 1;
+        document.querySelector(`#${questionId}`).addEventListener('click', () => {
+          const answer = document.querySelector(`#${answerId}`)
+          if (num === 1) {
+            answer.classList.remove('show');
+            num = 2;
+          } else if(num === 2) {
+            answer.classList.add('show')
+            num = 1;
+          }
+        })
+      }
+
+      showAnswer('question1', 'answer1');
+      showAnswer('question2', 'answer2');
+      showAnswer('question3', 'answer3');
+      showAnswer('question4', 'answer4');
+      showAnswer('question5', 'answer5');
+      showAnswer('question6', 'answer6');
+  </script>
 </body>
 </html>
