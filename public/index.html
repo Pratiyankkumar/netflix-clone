@@ -3,7 +3,7 @@
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>My Tailwind Project</title>
+  <title>Netflix clone</title>
   <link rel="preconnect" href="https://fonts.googleapis.com">
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
   <link href="https://fonts.googleapis.com/css2?family=Martel+Sans:wght@200;300;400;600;700;800;900&display=swap" rel="stylesheet">
@@ -173,6 +173,36 @@
       </div>
     </div>
   </div>
+
+  <div class="bg-black w-full mt-2 flex flex-col items-center md:justify-center pb-20">
+    <div class="text-center text-gray-400 text-sm space-y-2 mt-5">
+      <a href="#" class="hover:underline">Questions? Call 000-800-919-1694</a>
+      <div class="flex flex-wrap justify-center gap-4 mt-4">
+        <a href="#" class="hover:underline">FAQ</a>
+        <a href="#" class="hover:underline">Investor Relations</a>
+        <a href="#" class="hover:underline">Privacy</a>
+        <a href="#" class="hover:underline">Speed Test</a>
+        <a href="#" class="hover:underline">Help Centre</a>
+        <a href="#" class="hover:underline">Jobs</a>
+        <a href="#" class="hover:underline">Cookie Preferences</a>
+        <a href="#" class="hover:underline">Legal Notices</a>
+        <a href="#" class="hover:underline">Account</a>
+        <a href="#" class="hover:underline">Ways to Watch</a>
+        <a href="#" class="hover:underline">Corporate Information</a>
+        <a href="#" class="hover:underline">Only on Netflix</a>
+        <a href="#" class="hover:underline">Media Centre</a>
+        <a href="#" class="hover:underline">Terms of Use</a>
+        <a href="#" class="hover:underline">Contact Us</a>
+      </div>
+      <div class="mt-4">
+        <select name="language" id="language" class="bg-black border border-gray-600 text-gray-400 py-2 px-3 rounded">
+          <option value="en">English</option>
+          <!-- Add more languages here if needed -->
+        </select>
+      </div>
+      <p class="mt-4">Netflix India</p>
+    </div>
+  </div>
   
   <script>
 
@@ -182,6 +212,7 @@
           const answer = document.querySelector(`#${answerId}`)
           if (num === 1) {
             answer.classList.remove('show');
+
             num = 2;
           } else if(num === 2) {
             answer.classList.add('show')
